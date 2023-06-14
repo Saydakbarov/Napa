@@ -1,0 +1,22 @@
+a {
+  padding: 13px;
+  border-radius: 12px 0px 0px 12px;
+   .Icon {
+    background-color: none;
+  }
+
+  svg {
+    stroke: #ea7c69;
+  }
+
+  &.active {
+    background-color: #252836;
+
+    .Icon {
+      background-color: #ea7c69;
+      svg {
+        stroke: white;
+      }
+    }
+  }
+}
